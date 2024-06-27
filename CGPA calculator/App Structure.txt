@@ -1,0 +1,20 @@
+HOW TO CALCULATE CGPA
+
+List of grades:
+A = 4
+B = 3
+C = 2
+D = 1
+F = 0
+
+1. Each course gets one of the 5 grades.
+2. The CGPA is calculated by summing the grades in the courses and 
+   then divided by the total number of courses.
+
+a. Have a file containing constants: The grades will be an enum GRADES in that file
+b. A function that returns the CGPA: it receives the list of course.
+
+Possible improvements:
+The app can receive a file of students in a table with courses as columns
+and grades for each student under in each row
+c. We may need a function to handle file opening and closing
